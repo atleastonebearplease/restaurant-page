@@ -3,7 +3,8 @@ Restaurant Page:
     ✔ Create the event listener functions in the main file, but just have them print console lines @done(25-10-05 19:59)
     ✔ Link up the three module files in the index.js @done(25-10-06 11:55)
     ☐ Make the three modules print something simple to the screen
-    ☐ Hook up the buttons and modules
+    ☐ Allow what's printed to be removed
+    ✔ Hook up the buttons and modules @done(25-10-06 15:30)
     ☐ Work on the Menu Page content and styling
     ☐ Work on the Contact page content and styling
     ☐ Work on the Home page content and styling

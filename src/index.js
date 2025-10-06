@@ -11,15 +11,23 @@ let pageContent;
 
 function homeButtonHandler(event) {
     console.log("Home Button");
+    menu.inactive();
+    home.active();
+    contact.inactive();
 }
 
 function menuButtonHandler(event) {
     console.log("Menu Button");
-    menu.content.classList.add("active");
+    menu.active();
+    home.inactive();
+    contact.inactive();
 }
 
 function contactButtonHandler(event) {
     console.log("Contact Button");
+    menu.inactive();
+    home.inactive();
+    contact.active();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
