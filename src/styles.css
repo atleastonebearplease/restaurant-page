@@ -1,4 +1,4 @@
-@import url("../ExperimentStylingCSS/josh-c-styles.css");
+@import url("josh-c-styles.css");
 
 :root {
     /*Variables here*/
@@ -7,4 +7,26 @@
 * {
     box-sizing: border-box;
     font-family: "Ubuntu-Sans", sans-serif;
+}
+
+header {
+    background-color: #20293A;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 4rem;
+}
+
+button {
+    background-color: white;
+    height: 2.5rem;
+    width: 5rem;
 }
