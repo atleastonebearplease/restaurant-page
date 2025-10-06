@@ -1,0 +1,11 @@
+Restaurant Page:
+    ✔ Create the three files to contain the modules for Home, Menu, and Contact pages @done(25-10-05 19:50)
+    ✔ Create the event listener functions in the main file, but just have them print console lines @done(25-10-05 19:59)
+    ☐ Link up the three module files in the index.js
+    ☐ Write the interface for the three modules
+        Keep it simple. Each module should pretty much have the same functionality, but they'll have different implementations. 
+    ☐ Make the three modules print something simple to the screen
+    ☐ Hook up the buttons and modules
+    ☐ Work on the Menu Page content and styling
+    ☐ Work on the Contact page content and styling
+    ☐ Work on the Home page content and styling
