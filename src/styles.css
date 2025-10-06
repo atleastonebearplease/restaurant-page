@@ -30,3 +30,15 @@ button {
     height: 2.5rem;
     width: 5rem;
 }
+
+.home,
+.menu,
+.contact { 
+    display: none;
+}
+
+.home.active,
+.menu.active,
+.contact.active {
+    display: block;
+}
