@@ -25,20 +25,47 @@ header > nav {
     gap: 4rem;
 }
 
+body {
+    background-color: rgb(252, 249, 249);
+}
+
 button {
     background-color: white;
     height: 2.5rem;
     width: 5rem;
 }
 
+#content {
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
 .home,
 .menu,
 .contact { 
     display: none;
+    width: 40rem;
 }
 
 .home.active,
 .menu.active,
 .contact.active {
     display: block;
+}
+
+.menu__card {
+    background-color: white;
+    box-shadow:
+    1px 2px 2px hsla(0, 5%, 76%, 0.5),
+    2px 4px 4px hsla(0, 5%, 76%, 0.5);
+
+    width: 100%;
+    height: 10rem; /*Testing*/
+
+    margin: 1.5rem 0rem;
+    padding: 1rem;
+
+    border-radius: .75rem;
 }

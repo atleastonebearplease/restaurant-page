@@ -14,9 +14,13 @@ export class Menu {
     constructor() {
         this.content = createDiv("menu");
 
-        let heading = createHeading(1, "This is the Menu");
+        let heading = createHeading(1, "Menu");
+        this.#app(heading);
 
-        this.content.appendChild(heading);
+        this.#createAppetizerSection();
+        this.#createEntreesSection();
+        this.#createDesertsSection();
+        
     }
 
     active() {
@@ -26,6 +30,40 @@ export class Menu {
     inactive() {
         this.content.classList.remove("active");
     }
+
+    #app(child, parent = undefined){
+        if(parent){
+            parent.appendChild(child);
+        } else {
+            this.content.appendChild(child);
+        }
+    }
+
+    #createAppetizerSection() {
+        let menuSectionCard = createDiv("menu__card");
+        this.#app(menuSectionCard);
+
+        this.#app(createHeading(2, "Appetizers"), menuSectionCard);   
+    }
+
+    #createEntreesSection() {
+        let menuSectionCard = createDiv("menu__card");
+        this.#app(menuSectionCard);
+
+        this.#app(createHeading(2, "Entrees"), menuSectionCard);
+    }
+
+    #createDesertsSection() {
+        let menuSectionCard = createDiv("menu__card");
+        this.#app(menuSectionCard);
+
+        this.#app(createHeading(2, "Deserts"), menuSectionCard);
+    }
+
+    /*
+    #createMenuItem(imageURL, name, cost, description) {
+    }
+    */
 }
 
 /*

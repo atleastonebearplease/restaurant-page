@@ -2,9 +2,16 @@ Restaurant Page:
     ✔ Create the three files to contain the modules for Home, Menu, and Contact pages @done(25-10-05 19:50)
     ✔ Create the event listener functions in the main file, but just have them print console lines @done(25-10-05 19:59)
     ✔ Link up the three module files in the index.js @done(25-10-06 11:55)
-    ☐ Make the three modules print something simple to the screen
-    ☐ Allow what's printed to be removed
+    ✔ Make the three modules print something simple to the screen @done(25-10-06 15:38)
+    ✔ Allow what's printed to be removed @done(25-10-06 15:38)
     ✔ Hook up the buttons and modules @done(25-10-06 15:30)
     ☐ Work on the Menu Page content and styling
+        ✔ Center up the main content @done(25-10-07 09:15)
+        ✔ Add a title for the menu @done(25-10-07 09:15)
+        ✔ Create content 'card' @done(25-10-07 09:15)
+        ☐ Flesh out cards
+            ☐ Make one for appetizers, main courses, and deserts
+            ☐ Title each as such
+            ☐ Write a function to produce a menu item with a photo, name, cost, and description
     ☐ Work on the Contact page content and styling
     ☐ Work on the Home page content and styling

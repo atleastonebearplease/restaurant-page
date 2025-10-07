@@ -13,6 +13,8 @@ module.exports = {
     devServer: {
         static: path.resolve(__dirname, "dist"),
         hot: true,
+        open: true,
+        port: 8080,
         watchFiles: ["./src/**/*"],
     },
     plugins: [
