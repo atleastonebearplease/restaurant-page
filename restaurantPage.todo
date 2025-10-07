@@ -9,9 +9,13 @@ Restaurant Page:
         ✔ Center up the main content @done(25-10-07 09:15)
         ✔ Add a title for the menu @done(25-10-07 09:15)
         ✔ Create content 'card' @done(25-10-07 09:15)
-        ☐ Flesh out cards
-            ☐ Make one for appetizers, main courses, and deserts
-            ☐ Title each as such
-            ☐ Write a function to produce a menu item with a photo, name, cost, and description
+        ✔ Flesh out cards @done(25-10-07 09:26)
+            ✔ Make one for appetizers, main courses, and deserts @done(25-10-07 09:26)
+            ✔ Title each as such @done(25-10-07 09:26)
+            ✔ Write a function to produce a menu item with a photo, name, cost, and description @done(25-10-07 09:26)
+        ☐ Find a few images for menu items in appetizers
+        ☐ Same for entrees
+        ☐ Same for deserts
+        ☐ Create the function to make menu items
     ☐ Work on the Contact page content and styling
     ☐ Work on the Home page content and styling
