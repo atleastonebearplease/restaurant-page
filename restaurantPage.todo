@@ -5,7 +5,7 @@ Restaurant Page:
     ✔ Make the three modules print something simple to the screen @done(25-10-06 15:38)
     ✔ Allow what's printed to be removed @done(25-10-06 15:38)
     ✔ Hook up the buttons and modules @done(25-10-06 15:30)
-    ☐ Work on the Menu Page content and styling
+    ✔ Work on the Menu Page content and styling @done(25-10-08 10:18)
         ✔ Center up the main content @done(25-10-07 09:15)
         ✔ Add a title for the menu @done(25-10-07 09:15)
         ✔ Create content 'card' @done(25-10-07 09:15)
@@ -18,16 +18,14 @@ Restaurant Page:
         ✔ Same for deserts @done(25-10-07 10:31)
         ✔ Create the function to make menu items @done(25-10-07 12:21)
         ✔ Add remaining menu items to their respective sections @done(25-10-08 08:56)
-    ☐ Work on the Contact page content and styling
+    ✔ Work on the Contact page content and styling @done(25-10-08 10:18)
         ✔ Change the section card to be generic instead of menu card @done(25-10-08 09:23)
         ✔ Make section card for Contact Us @done(25-10-08 09:43)
         ✔ Make sub section card for address, phone, email, @done(25-10-08 09:43)
-    ☐ Work on the Home page content and styling
-        ☐ Add small about section with Header
-        ☐ Add an hourse section
-        ☐ Section to describe the location/surrounding area
+    ✔ Work on the Home page content and styling @done(25-10-08 10:18)
+        ✔ Add small about section with Header @done(25-10-08 10:18)
+        ✔ Add an hours section @done(25-10-08 10:18)
+        ✔ Section to describe the location/surrounding area @done(25-10-08 10:18)
 
 
 ACTIONS THIS COMMIT
--Added sections for address, phone number, and email
--Added the contents
