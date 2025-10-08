@@ -47,7 +47,7 @@ export class Menu {
     }
 
     #createSnackSection() {
-        let menuSectionCard = createDiv("menu__card");
+        let menuSectionCard = createDiv("section-card");
         this.#app(menuSectionCard);
 
         menuSectionCard.appendChild(createHeading(2, "Snacks"));
@@ -77,7 +77,7 @@ export class Menu {
     }
 
     #createEntreesSection() {
-        let menuSectionCard = createDiv("menu__card");
+        let menuSectionCard = createDiv("section-card");
         this.#app(menuSectionCard);
 
         menuSectionCard.appendChild(createHeading(2, "Entrees"));
@@ -107,7 +107,7 @@ export class Menu {
     }
 
     #createDesertsSection() {
-        let menuSectionCard = createDiv("menu__card");
+        let menuSectionCard = createDiv("section-card");
         this.#app(menuSectionCard);
 
         menuSectionCard.appendChild(createHeading(2, "Deserts"));
