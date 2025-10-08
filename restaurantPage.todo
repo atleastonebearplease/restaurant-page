@@ -17,8 +17,9 @@ Restaurant Page:
         ✔ Same for entrees @done(25-10-07 10:31)
         ✔ Same for deserts @done(25-10-07 10:31)
         ✔ Create the function to make menu items @done(25-10-07 12:21)
-        ☐ Add remaining menu items to their respective sections
+        ✔ Add remaining menu items to their respective sections @done(25-10-08 08:56)
     ☐ Work on the Contact page content and styling
+        ☐ 
     ☐ Work on the Home page content and styling
 
 
@@ -36,3 +37,6 @@ Deserts
 -Cheesecake bites
 -Pumpkin rolls with cream cheese filling
 -Cheese danish
+
+
+-Updated style for menu section cards to add more shadow on top

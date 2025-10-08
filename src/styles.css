@@ -63,7 +63,8 @@ button {
     background-color: white;
     box-shadow:
     1px 2px 2px hsla(0, 5%, 76%, 0.5),
-    2px 4px 4px hsla(0, 5%, 76%, 0.5);
+    2px 4px 4px hsla(0, 5%, 76%, 0.5),
+    1px -1px 4px hsla(0, 5%, 76%, 0.5);
 
     width: 100%;
 
@@ -77,6 +78,7 @@ button {
     display: grid;
     grid-template-columns: 150px 1fr;
     grid-template-rows: 1fr;
+    margin: 1.5rem 0;
 }
 
 .menu__image {

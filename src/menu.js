@@ -50,9 +50,7 @@ export class Menu {
         let menuSectionCard = createDiv("menu__card");
         this.#app(menuSectionCard);
 
-        let heading = createHeading(2, "Snacks");
-
-        menuSectionCard.appendChild(heading);
+        menuSectionCard.appendChild(createHeading(2, "Snacks"));
 
         let snackList = createUnorderedList([
             this.#createMenuItem(
@@ -61,6 +59,18 @@ export class Menu {
                 5,
                 "Delicious pucks of mac n' cheese, breaded and deep fried to perfection."
             ),
+            this.#createMenuItem(
+                miniMacNCheeseImg,
+                "Mini-Mac",
+                4,
+                "A smaller portion serving of our gold standard mac n' cheese."
+            ),
+            this.#createMenuItem(
+                macStackImg, 
+                "Mac Stack", 
+                2.50, 
+                "A delicious smash burger patty stacked with a mac n' cheese bite."
+            )
         ]);
 
         menuSectionCard.appendChild(snackList);
@@ -71,6 +81,29 @@ export class Menu {
         this.#app(menuSectionCard);
 
         menuSectionCard.appendChild(createHeading(2, "Entrees"));
+
+        let entreesList = createUnorderedList([
+            this.#createMenuItem(
+                baconMacImg,
+                "Bacon Mac N' Cheese",
+                8,
+                "Our signature Mac N' Cheese infused with applewood smoked bacon at every step."
+            ),
+            this.#createMenuItem(
+                chickenAlfredoMacImg,
+                "Chicken Alfredo Mac N' Cheese", 
+                10,
+                "Our Macaroni noodles doused in our creamy alfredo sauce with a generoous helping of our perfectly tender, juicy chicken."
+            ),
+            this.#createMenuItem(
+                pizzaMacImg,
+                "Pizza Mac N' Cheese",
+                10,
+                "Our signature Mac N Cheese, covered in pizza sauce, an extra layer of pizza style cheese, and any toppings of your choice, lightly baked to perfection."
+            )
+        ]);
+
+        menuSectionCard.appendChild(entreesList);
     }
 
     #createDesertsSection() {
@@ -78,6 +111,29 @@ export class Menu {
         this.#app(menuSectionCard);
 
         menuSectionCard.appendChild(createHeading(2, "Deserts"));
+
+        let desertList = createUnorderedList([
+            this.#createMenuItem(
+                cheeseCakeBitesImg,
+                "Cheesecake Bites",
+                6,
+                "In keeping with our cheese-only menu, we present delicious, creamy, cold cheese cake bites to enjoy along side any of our Mac dishes."
+            ),
+            this.#createMenuItem(
+                pumpkinRollImg,
+                "Pumpkin Roll Slice",
+                4,
+                "A delicious pumpkin roll with a cream cheese icing filling."
+            ),
+            this.#createMenuItem(
+                cheeseDanishImg,
+                "Cheese Danish", 
+                3.50,
+                "A warm, flaky cheese danish, heated and served with whipped topping."
+            )
+        ]);
+
+        menuSectionCard.appendChild(desertList);
     }
 
     #createMenuItem(imageSrc, itemName, cost, description) {
