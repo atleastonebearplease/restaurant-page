@@ -45,9 +45,9 @@ document.addEventListener("DOMContentLoaded", () => {
     menuButton.addEventListener("click", menuButtonHandler);
     contactButton.addEventListener("click", contactButtonHandler);
 
-    home.inactive();
+    home.active();
     menu.inactive();
-    contact.active();
+    contact.inactive();
 });
 
 //Add event listeners

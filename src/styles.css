@@ -80,8 +80,12 @@ button {
     border-radius: .75rem;
 }
 
-.menu__card > h2 {
-    margin-left: 2.25rem;
+.home-page-card {
+    min-width: 50rem; 
+}
+
+.home-page-card > h1 {
+    margin: 1rem 0;
 }
 
 .menu-item {
