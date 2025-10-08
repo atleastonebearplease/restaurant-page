@@ -19,27 +19,12 @@ Restaurant Page:
         ✔ Create the function to make menu items @done(25-10-07 12:21)
         ✔ Add remaining menu items to their respective sections @done(25-10-08 08:56)
     ☐ Work on the Contact page content and styling
-        ☐ Change the section card to be generic instead of menu card
-        ☐ Make section card for Contact Us
-        ☐ Make sub section card for address, phone, email,
-        ☐ Make a class to make it have a min width
+        ✔ Change the section card to be generic instead of menu card @done(25-10-08 09:23)
+        ✔ Make section card for Contact Us @done(25-10-08 09:43)
+        ✔ Make sub section card for address, phone, email, @done(25-10-08 09:43)
     ☐ Work on the Home page content and styling
 
 
-Snacks
--Mac N Cheese bites
--Mini-Mac (mini mac bowls)
--Mac Stack (man n cheese slider)
-
-Entrees
--Bacon Mac
--Chicken alfredo Mac
--Pizza Mac
-
-Deserts
--Cheesecake bites
--Pumpkin rolls with cream cheese filling
--Cheese danish
-
-
 ACTIONS THIS COMMIT
+-Added sections for address, phone number, and email
+-Added the contents
