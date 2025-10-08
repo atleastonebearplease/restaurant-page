@@ -19,7 +19,10 @@ Restaurant Page:
         ✔ Create the function to make menu items @done(25-10-07 12:21)
         ✔ Add remaining menu items to their respective sections @done(25-10-08 08:56)
     ☐ Work on the Contact page content and styling
-        ☐ 
+        ☐ Change the section card to be generic instead of menu card
+        ☐ Make section card for Contact Us
+        ☐ Make sub section card for address, phone, email,
+        ☐ Make a class to make it have a min width
     ☐ Work on the Home page content and styling
 
 
@@ -39,4 +42,6 @@ Deserts
 -Cheese danish
 
 
--Updated style for menu section cards to add more shadow on top
+ACTIONS THIS COMMIT
+-Add footer with styling
+-Add left margin to snack, entree, and desert headers

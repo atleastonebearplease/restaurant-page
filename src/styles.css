@@ -12,7 +12,7 @@
 ul {
     list-style: none;
 }
-
+footer,
 header {
     background-color: #20293A;
     height: 5rem;
@@ -20,6 +20,10 @@ header {
     justify-content: center;
     align-items: center;
     width: 100%;
+}
+
+footer {
+    color: white;
 }
 
 header > nav {
@@ -72,6 +76,10 @@ button {
     padding: 1rem;
 
     border-radius: .75rem;
+}
+
+.menu__card > h2 {
+    margin-left: 2.25rem;
 }
 
 .menu-item {
